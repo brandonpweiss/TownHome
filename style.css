@@ -19,3 +19,433 @@
 .clearfix {
 	display: block;
 }
+
+/*fonts -- CRIMSON*/
+
+@font-face {
+    font-family: 'crimsonitalic';
+    src: url('fonts/crimson/crimson-italic-webfont.eot');
+    src: url('fonts/crimson/crimson-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/crimson/crimson-italic-webfont.woff') format('woff'),
+         url('fonts/crimson/crimson-italic-webfont.ttf') format('truetype'),
+         url('fonts/crimson/crimson-italic-webfont.svg#fonts/crimson/crimsonitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'crimson';
+    src: url('fonts/crimson/crimson-roman-webfont.eot');
+    src: url('fonts/crimson/crimson-roman-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/crimson/crimson-roman-webfont.woff') format('woff'),
+         url('fonts/crimson/crimson-roman-webfont.ttf') format('truetype'),
+         url('fonts/crimson/crimson-roman-webfont.svg#fonts/crimson/crimsonroman') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'crimsonbold';
+    src: url('fonts/crimson/crimson-bold-webfont.eot');
+    src: url('fonts/crimson/crimson-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/crimson/crimson-bold-webfont.woff') format('woff'),
+         url('fonts/crimson/crimson-bold-webfont.ttf') format('truetype'),
+         url('fonts/crimson/crimson-bold-webfont.svg#fonts/crimson/crimsonbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*FONTS -- KARBON*/
+
+
+@font-face {
+    font-family: 'karbonlight';
+    src: url('fonts/karbon/karbon-light-webfont.eot');
+    src: url('fonts/karbon/karbon-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/karbon/karbon-light-webfont.woff') format('woff'),
+         url('fonts/karbon/karbon-light-webfont.ttf') format('truetype'),
+         url('fonts/karbon/karbon-light-webfont.svg#karbonlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'karbonregular';
+    src: url('fonts/karbon/karbon-regular-webfont.eot');
+    src: url('fonts/karbon/karbon-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/karbon/karbon-regular-webfont.woff') format('woff'),
+         url('fonts/karbon/karbon-regular-webfont.ttf') format('truetype'),
+         url('fonts/karbon/karbon-regular-webfont.svg#karbonregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'karbonmedium';
+    src: url('fonts/karbon/karbon-medium-webfont.eot');
+    src: url('fonts/karbon/karbon-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/karbon/karbon-medium-webfont.woff') format('woff'),
+         url('fonts/karbon/karbon-medium-webfont.ttf') format('truetype'),
+         url('fonts/karbon/karbon-medium-webfont.svg#karbonmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    letter-spacing: 1px;
+}
+
+
+
+
+@font-face {
+    font-family: 'karbonsemibold';
+    src: url('fonts/karbon/karbon-semibold-webfont.eot');
+    src: url('fonts/karbon/karbon-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/karbon/karbon-semibold-webfont.woff') format('woff'),
+         url('fonts/karbon/karbon-semibold-webfont.ttf') format('truetype'),
+         url('fonts/karbon/karbon-semibold-webfont.svg#karbonsemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'karbonthin';
+    src: url('fonts/karbon/karbon-thin-webfont.eot');
+    src: url('fonts/karbon/karbon-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/karbon/karbon-thin-webfont.woff') format('woff'),
+         url('fonts/karbon/karbon-thin-webfont.ttf') format('truetype'),
+         url('fonts/karbon/karbon-thin-webfont.svg#karbonthin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'karbonbold';
+    src: url('fonts/karbon/karbon-bold-webfont.eot');
+    src: url('fonts/karbon/karbon-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/karbon/karbon-bold-webfont.woff') format('woff'),
+         url('fonts/karbon/karbon-bold-webfont.ttf') format('truetype'),
+         url('fonts/karbon/karbon-bold-webfont.svg#karbonbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+	background: #333333;
+}
+
+.content{
+	max-width: 1170px;
+	margin: 0 auto;
+	padding: 0px 20px 0px 20px;
+}
+
+header .content img.logo{
+	display: inline;
+	margin-top: 5px;
+}
+
+nav{	
+	background: #555555;
+	text-align: center;
+	padding: 55px 16px 55px 16px;
+	float:right;
+	display:block;
+	margin-right: 770px;
+	margin-top: 5px;
+	height: 88px;
+}
+
+nav a{
+	font-family: crimson;
+	text-decoration: none;
+	font-weight: 100;
+	display:block;
+	color: #CCCCCC;
+	-webkit-transition: color .25s ease-in-out;
+	-moz-transition: color .25s ease-in-out;
+	-o-transition: color .25s ease-in-out;
+	-ms-transition: color .25s ease-in-out;
+	transition: color .25s ease-in-out;
+}
+
+nav a:hover{
+	color: #FFFFFF;
+}
+header{
+	background: url(images/header/slideshow/1.jpg) no-repeat top center;
+	background-size: cover;
+}
+header p{
+	font-family: karbonlight;
+	color: #FFFFFF;
+}
+
+#celebrate{
+	color: #777777;
+	font-family: karbonmedium;
+	background: #FFFFFF;
+	text-align: center;
+	padding: 10px 0px 10px 0px;
+	letter-spacing: 2px;
+}
+
+#celebrate a{
+	color: #000000;
+	font-family: karbonmedium;
+	text-decoration: none;
+	-webkit-transition: color .25s ease-in-out;
+	-moz-transition: color .25s ease-in-out;
+	-o-transition: color .25s ease-in-out;
+	-ms-transition: color .25s ease-in-out;
+	transition: color .25s ease-in-out;
+}
+#celebrate a:hover{
+	color: #CCCCCC;
+}
+
+section#about h1{
+	font-family: crimson;
+	color: #FFFFFF;
+	font-weight: 100;
+}
+section#about p{
+	font-family: karbonregular;
+	color: #FFFFFF;
+}
+
+.karbonmedium{
+	font-family: karbonmedium;
+}
+
+section#about ul li{
+	font-family: karbonregular;
+	color: #FFFFFF;
+	list-style: none;
+}
+
+section#about ul li a{
+	font-family: karbonregular;
+	color: #FFFFFF;
+	text-decoration: none;
+	-webkit-transition: color .25s ease-in-out;
+	-moz-transition: color .25s ease-in-out;
+	-o-transition: color .25s ease-in-out;
+	-ms-transition: color .25s ease-in-out;
+	transition: color .25s ease-in-out;
+}
+
+section#about ul li a:hover{
+	color: #CCCCCC;
+}
+
+.line{
+	background: #FFFFFF;
+	height: 1px;
+}
+#tenthAnniversary{
+	text-align: center;
+	color: rgba(255, 255, 255, .7);
+	font-family: karbonregular;
+	background: url(images/tenth_anniversary/background.jpg) no-repeat top center;
+	background-size: cover;
+	min-height: 541px;
+}
+#tenthAnniversary .tenth{
+	font-family: crimson;
+	font-size: 4em;
+	letter-spacing: 10px;
+	font-weight: lighter;
+}
+#tenthAnniversary img{
+	position: relative;
+	left: 50px;
+	top: 10px;
+	margin-top: 150px;
+	opacity: .7;
+}
+#tenthanniversary p{
+	margin: 0 auto;
+	font-family: karbonmedium;
+	letter-spacing: 1px;
+	max-width: 780px;
+}
+
+section#about .col1{
+	float:left;
+	width: 390px;
+	text-align: justify;
+	line-height: 20px;
+}
+section#about .col2{
+	float:left;
+	width: 390px;
+	text-align: center;
+	padding-top: 20px;
+}
+section#about .col3{
+	text-align: justify;
+	line-height: 20px;
+}
+section#about .col3 ul{
+	margin-top: 40px;
+}
+
+section#about{
+	padding: 75px 0px 100px 0px;
+}
+
+.BOF{
+	margin-top: 550px;
+	margin-bottom: 50px;
+}
+
+header p{
+	width: 400px;
+	text-align: justify;
+	line-height: 20px;
+}
+
+#photos{
+	padding: 20px;
+}
+#photos h2{
+	font-family: karbonregular;
+	color: #555555;
+	text-align: center;
+	font-size: 16px;
+	letter-spacing: 2px;
+}
+
+.instagram a img{
+	float:left;
+	margin: 20px;
+}
+.instagram{
+	position: relative;
+	max-width: 954px;
+	margin-left: -477px;
+	left: 50%;
+}
+section#designers{
+	border-top: thick #999999 solid;
+	border-bottom: thick #555555 solid;
+}
+div#featured{
+	background: #FFFFFF;
+	text-align: center;
+	font-family: crimson;
+	color: #999999;
+	padding: 20px 0px 20px 0px;
+	letter-spacing: 2px;
+}
+.white{
+	color: #CCCCCC;
+}
+.grey{
+	color: #777777;
+}
+#contact{
+	margin: 0 auto;
+	text-align: center;
+}
+.contact{
+	float:left;
+	margin-right: 1%;
+	margin-left: 1%;
+	color: #FFFFFF;
+	font-family: karbonmedium;
+	letter-spacing: 2px;
+}
+.contact img{
+	margin-bottom: 5px;
+}
+.contacts{
+	margin: auto;
+	text-align: center;
+	width: 1000px;
+	margin-left: -500px;
+	left: 50%;
+	position: relative;
+	padding: 50px 0px 50px 0px;
+}
+footer{
+	background: #CCCCCC;
+	color: #555555;
+	padding: 40px 0px 150px 0px;
+}
+.label2{
+	color: #999999;
+	font-family: karbonmedium;
+	display:inline-block;
+	width: 80px;
+}
+footer ul li{
+	list-style: none;
+	font-family: karbonmedium;
+	color: #555555;
+	line-height: 20px;
+}
+footer ul li a{
+	text-decoration: none;
+	list-style: none;
+	font-family: karbonmedium;
+	color: #555555;
+	line-height: 20px;
+	padding: none;
+}
+
+footer .col1{
+	float:left;
+	width: 390px;
+	text-align: justify;
+
+}
+footer .col2{
+	float:left;
+	text-align: center;
+	width: 390px;
+}
+footer .col3{
+	text-align: justify;
+	line-height: 20px;
+	width: 390px;
+	float:right;
+}
+footer p{
+	color: #999999;
+	font-family: karbonregular;
+	margin-left: 40px;
+}
+.words{
+	text-align: center;
+	color: #999999;
+	font-family: karbonregular;
+}
+.phil{
+	margin-left: 85px;
+}

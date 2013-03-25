@@ -302,13 +302,14 @@ section#about ul li a:hover{
 
 section#about .col1{
 	float:left;
-	width: 390px;
+	max-width: 390px;
 	text-align: justify;
 	line-height: 20px;
 }
 section#about .col2{
 	float:left;
-	width: 390px;
+	min-width: 300px;
+	max-width: 390px;
 	text-align: center;
 	padding-top: 20px;
 }
@@ -325,7 +326,7 @@ section#about{
 }
 
 header p{
-	width: 400px;
+	max-width: 400px;
 	text-align: justify;
 	line-height: 20px;
 }
@@ -346,10 +347,12 @@ header p{
 	margin: 20px;
 }
 .instagram{
-	position: relative;
+	max-width: 954px;
+	margin: 0 auto;
+	/*position: relative;
 	max-width: 954px;
 	margin-left: -477px;
-	left: 50%;
+	left: 50%;*/
 }
 section#designers{
 	border-top: thick #999999 solid;
@@ -369,10 +372,16 @@ div#featured{
 .grey{
 	color: #777777;
 }
+.contacts{
+	margin: auto;
+	max-width: 1000px;
+	padding: 50px 0px 50px 0px;
+}
 #contact{
 	margin: 0 auto;
 	text-align: center;
 }
+
 .contact{
 	float:left;
 	margin-right: 1%;
@@ -382,7 +391,7 @@ div#featured{
 	letter-spacing: 2px;
 }
 .contact a{
-		color: #FFFFFF;
+	color: #FFFFFF;
 	font-family: karbonmedium;
 	letter-spacing: 2px;
 	text-decoration: none;
@@ -398,15 +407,7 @@ div#featured{
 .contact img{
 	margin-bottom: 5px;
 }
-.contacts{
-	margin: auto;
-	text-align: center;
-	width: 1000px;
-	margin-left: -500px;
-	left: 50%;
-	position: relative;
-	padding: 50px 0px 50px 0px;
-}
+
 footer{
 	background: #CCCCCC;
 	color: #555555;
@@ -440,19 +441,20 @@ footer ul li a{
 
 footer .col1{
 	float:left;
-	width: 390px;
+	max-width: 390px;
 	text-align: justify;
 
 }
 footer .col2{
 	float:left;
 	text-align: center;
-	width: 390px;
+	min-width: 300px;
+	max-width: 390px;
 }
 footer .col3{
 	text-align: justify;
 	line-height: 20px;
-	width: 390px;
+	max-width: 390px;
 	float:right;
 }
 footer p{

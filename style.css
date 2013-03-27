@@ -159,7 +159,7 @@ body{
 }
 
 .content{
-	max-width: 1170px;
+	max-width: 88%;
 	margin: 0 auto;
 	padding: 0px 20px 0px 20px;
 }
@@ -172,9 +172,15 @@ header{
 header p{
 	font-family: karbonlight;
 	color: #FFFFFF;
+	max-width: 400px;
+	text-align: justify;
+	line-height: 20px;
+	clear:both;
 }
 header .content img.logo{
 	margin-top: 5px;
+	float:left;
+	margin-right: 5px;
 }
 .BOF{
 	margin-bottom: 50px;
@@ -185,12 +191,13 @@ header .content img.logo{
 nav{	
 	background: #555555;
 	text-align: center;
-	padding: 55px 16px 55px 16px;
-	float:right;
+	padding: 40px 16px 70px 16px;
+	float:left;
 	display:block;
-	margin-right: 770px;
 	margin-top: 5px;
 	height: 88px;
+	width: 166px;
+	line-height: 30px;
 }
 
 nav a{
@@ -268,6 +275,32 @@ section#about ul li a:hover{
 	color: #CCCCCC;
 }
 
+section#about .content .col1{
+	float:left;
+	text-align: justify;
+	line-height: 20px;
+	width: 33%;
+}
+section#about .content .col2{
+	float:left;
+	text-align: center;
+	padding-top: 20px;
+	width: 33%;
+}
+section#about .content .col3{
+	text-align: justify;
+	line-height: 20px;
+	float:left;
+	width: 33%;
+}
+section#about .content .col3 ul{
+	margin-top: 40px;
+}
+
+section#about{
+	padding: 75px 0px 100px 0px;
+}
+
 .line{
 	background: #FFFFFF;
 	height: 1px;
@@ -298,37 +331,6 @@ section#about ul li a:hover{
 	font-family: karbonmedium;
 	letter-spacing: 1px;
 	max-width: 780px;
-}
-
-section#about .col1{
-	float:left;
-	max-width: 390px;
-	text-align: justify;
-	line-height: 20px;
-}
-section#about .col2{
-	float:left;
-	min-width: 300px;
-	max-width: 390px;
-	text-align: center;
-	padding-top: 20px;
-}
-section#about .col3{
-	text-align: justify;
-	line-height: 20px;
-}
-section#about .col3 ul{
-	margin-top: 40px;
-}
-
-section#about{
-	padding: 75px 0px 100px 0px;
-}
-
-header p{
-	max-width: 400px;
-	text-align: justify;
-	line-height: 20px;
 }
 
 #photos{
@@ -412,6 +414,7 @@ footer{
 	background: #CCCCCC;
 	color: #555555;
 	padding: 40px 0px 150px 0px;
+	max-width: 100%;
 }
 .label2{
 	color: #999999;
@@ -441,21 +444,20 @@ footer ul li a{
 
 footer .col1{
 	float:left;
-	max-width: 390px;
+	width: 33%;
 	text-align: justify;
 
 }
 footer .col2{
 	float:left;
 	text-align: center;
-	min-width: 300px;
-	max-width: 390px;
+	width: 33%;
 }
 footer .col3{
 	text-align: justify;
 	line-height: 20px;
-	max-width: 390px;
-	float:right;
+	width: 33%;
+	float:left;
 }
 footer p{
 	color: #999999;
@@ -474,4 +476,46 @@ footer ul li a:hover{
 }
 .phil{
 	margin-left: 85px;
+}
+
+@media only screen and (max-width: 1023px){
+section#about .content .col1{
+	float:none;
+	text-align: justify;
+	line-height: 20px;
+	width: 90%;
+}
+section#about .content .col2{
+	float:none;
+	text-align: center;
+	padding-top: 20px;
+	width: 90%;
+}
+section#about .content .col3{
+	text-align: justify;
+	line-height: 20px;
+	float:none;
+	width: 90%;
+}
+
+
+footer .content .col1{
+	float:none;
+	text-align: justify;
+	line-height: 20px;
+	width: 90%;
+}
+footer .content .col2{
+	float:none;
+	text-align: center;
+	padding-top: 20px;
+	width: 90%;
+}
+footer .content .col3{
+	text-align: justify;
+	line-height: 20px;
+	float:none;
+	width: 90%;
+}
+
 }

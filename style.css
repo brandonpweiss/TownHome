@@ -171,6 +171,7 @@ header{
 	position: relative;
 	z-index: 10;
 }
+
 header p{
 	font-family: karbonlight;
 	color: #FFFFFF;
@@ -241,6 +242,7 @@ nav a:hover{
 #celebrate a:hover{
 	color: #CCCCCC;
 }
+
 
 section#about h1{
 	font-family: crimson;
@@ -323,7 +325,7 @@ section#about{
 }
 #tenthAnniversary img{
 	position: relative;
-	left: 50px;
+	left: 48px;
 	top: 10px;
 	margin-top: 150px;
 	opacity: .7;
@@ -478,6 +480,34 @@ footer ul li a:hover{
 }
 .phil{
 	margin-left: 85px;
+}
+
+
+
+@media only screen and (max-width: 480px){
+.logo{
+	width: 100px;
+	margin-left: -50px;
+	left: 50%;
+	position: relative;
+
+}
+header p{
+	color: #333;
+}
+nav{
+	display:none;
+}
+#tenthAnniversary img{
+	left: 0px;
+}
+}
+
+@media only screen and (min-width: 1441px){
+.BOF{
+	margin-bottom: 50px;
+	margin-top: 430px;
+}
 }
 
 @media only screen and (max-width: 1023px){

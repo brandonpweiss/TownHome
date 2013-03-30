@@ -501,6 +501,23 @@ nav{
 #tenthAnniversary img{
 	left: 0px;
 }
+img.instagram-image{
+	max-width: 60px;
+	margin-left: 0px;
+	padding: 0px;
+}
+.instagram a img{
+margin: 5px;
+}
+
+.contact a, .contact span{
+	display:none;
+}
+#contact .content .contacts .contact img{
+	max-width: 60px;
+	margin-left: 0px;
+	padding: 0px;
+}
 }
 
 @media only screen and (min-width: 1441px){

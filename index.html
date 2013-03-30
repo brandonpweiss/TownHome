@@ -10,6 +10,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script src="jquery.js"></script>
 <script src="jquery.parallax.js"></script>
+<!-- <script src="jquery.carousel.js"></script> -->
 <script src="bootstrap/js/bootstrap.js"></script>
 <script src="jquery.fittext.js"></script>
 <script src="modernizr.js" type="text/javascript"></script>
@@ -85,6 +86,7 @@
 	<section id="photos">
 		<h2>USE <span class="white">#TOWNHOME10</span> ON INSTAGRAM TO SEE YOUR PICTURES APPEAR BELOW:</h2>
 		<div class="instagram clearfix"></div>
+		<button>More</button>
 	</section>
 	<section id="designers">
 		<div id="featured"><span class="grey">Featured Designers:</span> Heather B. Moore, Jennifer Zeuner, Jeanin Payer, Jennifer Meyer, Me&Ro, + Sky Jewels</div>
@@ -166,9 +168,52 @@ $(document).ready(function(){
 $(".tenth").fitText(1.4, { minFontSize: '30px', maxFontSize: '100px' });
 </script>
 <script>
+// $(function(){
+
+	// $(".instagram").instagram({hash: 'instahub', clientId: 'a6e6539e432443d39a31292575d5a6f9',show: 5});
+
+
 $(function(){
-	$(".instagram").instagram({hash: 'instahub', clientId: 'a6e6539e432443d39a31292575d5a6f9',show: 5});
+  var
+    insta_container = $(".instagram")
+  , insta_next_url
+
+  insta_container.instagram({
+      hash: 'instahub'
+    , clientId : 'a6e6539e432443d39a31292575d5a6f9'
+    , show : 5
+    , onComplete : function (photos, data) {
+      insta_next_url = data.pagination.next_url
+    }
+  })
+
+  $('button').on('click', function(){
+    var
+      button = $(this)
+    , text = button.text()
+
+    if (button.text() != 'Loading…'){
+      button.text('Loading…')
+      insta_container.instagram({
+          next_url : insta_next_url
+        , show : 5
+        , onComplete : function(photos, data) {
+          insta_next_url = data.pagination.next_url
+          button.text(text)
+        }
+      })
+    }
+  })
 });
+
+// });
+</script>
+<script type="text/javascript">
+/*
+$(document).ready(function() {
+    $('#instagram-carousel').carousel();
+});
+*/
 </script>
 </body>
 </html>

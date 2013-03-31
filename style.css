@@ -671,10 +671,19 @@ footer .content .col3{
 }
 
 }
+@media only screen and (max-width: 640px){
+.un-stack{
+	margin: 0 5px;
+}
+}
 @media only screen and (max-width: 500px){
 	header p{
 		color: #333;
 		padding: 10px;
+		background: rgba(255,255,255,0.9);
+	}
+	.hide{
+		display:none;
 	}
 .inner{
 	padding: 10px;
@@ -690,8 +699,8 @@ footer .content .col3{
 }
 .instagram{
 	width: 70%;
-
 }
+
 header .content img.logo{
 	margin-top: 5px;
 	float:none;
@@ -741,4 +750,9 @@ footer .content .col3{
 	width: 90%;
 }
 
+}
+@media only screen and (max-width: 320px){
+.un-stack{
+	margin: 0 3px;
+}
 }

@@ -166,7 +166,7 @@ body{
 
 header{
 	background: url(images/header/slideshow/1.jpg) 50% 0 no-repeat fixed;
-	background-size: cover;
+	/*background-size: cover;*/
 	max-height: 900px;
 	position: relative;
 	z-index: 10;
@@ -314,7 +314,7 @@ section#about{
 	color: rgba(255, 255, 255, .7);
 	font-family: karbonregular;
 	background: url(images/tenth_anniversary/background.jpg) 50% 0 no-repeat fixed;
-	background-size: cover;
+	/*background-size: cover;*/
 	min-height: 541px;
 }
 #tenthAnniversary .tenth{
@@ -470,6 +470,7 @@ color: #FFFFFF;
 #featured-designers li{
 	list-style: none;
 	width: 100%;
+	height: 100%;
 }
 .fd-block{
 	height: 100%;

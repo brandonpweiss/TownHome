@@ -408,8 +408,8 @@ div#featured{
 }
 /*Featured Designers styles*/
 
-#designers.fixed{
-	margin-top: 30px;
+.fixed {
+	top: 30px!important;
 }
 .fixed, .fixed-nav{
 	background: #fff url() 0 0 no-repeat;
@@ -429,7 +429,7 @@ div#featured{
 	color:#CCC;
 }
 .fixed-nav{
-	-webkit-box-shadow: 1px 1px 2px 1px rgba(1, 1, 1, .3);
+-webkit-box-shadow: 1px 1px 2px 1px rgba(1, 1, 1, .3);
 box-shadow: 1px 1px 2px 1px rgba(1, 1, 1, .3);
 }
 .un-stack{
@@ -473,8 +473,6 @@ color: #FFFFFF;
 }
 .fd-block{
 	height: 100%;
-	position:relative;
-	z-index: 10;
 }
 #heather{
 	background: url(images/featured_designers/heatherbmoore.jpg) 50% 0 no-repeat fixed;

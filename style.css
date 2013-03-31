@@ -304,8 +304,8 @@ section#about{
 }
 
 .line{
-	background: #FFFFFF;
-	height: 1px;
+	background: rgba(255, 255, 255, 0.4);
+	height: .5px;
 }
 #tenthAnniversary{
 	text-align: center;
@@ -357,6 +357,7 @@ section#about{
 	width:auto;
 	text-align: center;
 	margin-top: 12px;
+	font-family: 'karbonbold';
 }
 
 .instagram a img{
@@ -374,6 +375,8 @@ section#about{
 section#designers{
 	border-top: thick #999999 solid;
 	border-bottom: thick #555555 solid;
+	position: relative;
+	z-index: 11;
 }
 div#featured{
 	background: #FFFFFF;
@@ -383,6 +386,99 @@ div#featured{
 	padding: 20px 0px 20px 0px;
 	letter-spacing: 2px;
 }
+#featured a{
+	text-decoration: none;
+	color: #999999;
+}
+#featured a:hover{
+	text-decoration: none;
+	color: #666666;
+}
+/*Featured Designers styles*/
+.fixed, .fixed-nav{
+	position: fixed!important;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	width: 100%;
+	margin: 0!important;
+	padding: 0!important;
+}
+.fixed-nav{
+	height: 35px;
+	border-bottom: 1px solid #999999;
+}
+.un-stack{
+	display: inline!important;
+	margin: 0 25px;
+}
+#designers-wrap{
+	height: 62px;
+	width: 100%;
+}
+.inner{
+margin: 0px;
+padding: 80px;
+color: #FFFFFF;
+}
+.inner p{
+	font family: 'karbon';
+	font-weight: lighter;
+	font-size: 14px;
+	width: 400px;
+	line-height: 20px;
+}
+.inner a{
+	text-transform: uppercase;
+	font-family: 'karbonbold';
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.inner h1{
+	font-family: 'crimson';
+	font-weight: lighter;
+	font-size: 24px;
+}
+#featured-designers{
+}
+#featured-designers ul{
+	margin: 0;
+	padding: 0;
+}
+#featured-designers li{
+	list-style: none;
+	width: 100%;
+}
+.fd-block{
+	height: 100%;
+	position:relative;
+	z-index: 10;
+}
+#heather{
+	background: url(images/featured_designers/heatherbmoore.jpg) 50% 0 no-repeat fixed;
+	background-size: cover;
+}
+#jennz{
+	background: url(images/featured_designers/jenniferzeuner.jpg) 50% 0 no-repeat fixed;
+	background-size: cover;
+}
+#jeanin{
+	background: url(images/featured_designers/jeaninpayer.jpg) 50% 0 no-repeat fixed;
+	background-size: cover;
+}
+#jennm{
+	background: url(images/featured_designers/jennifermeyer.jpg) 50% 0 no-repeat fixed;
+	background-size: cover;
+}
+#meandro{
+	background: url(images/featured_designers/meandro.jpg) 50% 0 no-repeat fixed;
+	background-size: cover;
+}
+#sky{
+	background: url(images/featured_designers/skyjewels.jpg) 50% 0 no-repeat fixed;
+	background-size: cover;
+}
+/*END FEATURED*/
 .white{
 	color: #CCCCCC;
 }

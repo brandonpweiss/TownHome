@@ -166,7 +166,7 @@ body{
 
 header{
 	background: url(images/header/slideshow/1.jpg) 50% 0 no-repeat fixed;
-	/*background-size: cover;*/
+	background-size: cover;
 	max-height: 900px;
 	position: relative;
 	z-index: 10;
@@ -314,7 +314,7 @@ section#about{
 	color: rgba(255, 255, 255, .7);
 	font-family: karbonregular;
 	background: url(images/tenth_anniversary/background.jpg) 50% 0 no-repeat fixed;
-	/*background-size: cover;*/
+	background-size: cover;
 	min-height: 541px;
 }
 #tenthAnniversary .tenth{
@@ -388,7 +388,7 @@ section#designers{
 	border-top: thick #999999 solid;
 	border-bottom: thick #555555 solid;
 	position: relative;
-	z-index: 11;
+	z-index: 5;
 }
 div#featured{
 	background: #FFFFFF;
@@ -749,7 +749,53 @@ footer .content .col3{
 	float:none;
 	width: 90%;
 }
-
+header {
+	background: url(images/header/slideshow/1.jpg) 50% 0 no-repeat;
+	background-size: auto;
+}
+#tenthAnniversary {
+	background: url(images/tenth_anniversary/background.jpg) 50% 0 no-repeat;
+	background-size: auto;
+}
+#heather{
+	background: url(images/featured_designers/heatherbmoore.jpg) 50% 0 no-repeat;
+}
+#jennz{
+	background: url(images/featured_designers/jenniferzeuner.jpg) 50% 0 no-repeat;
+}
+#jeanin{
+	background: url(images/featured_designers/jeaninpayer.jpg) 50% 0 no-repeat;
+}
+#jennm{
+	background: url(images/featured_designers/jennifermeyer.jpg) 50% 0 no-repeat;
+}
+#meandro{
+	background: url(images/featured_designers/meandro.jpg) 50% 0 no-repeat;
+}
+#sky{
+	background: url(images/featured_designers/skyjewels.jpg) 50% 0 no-repeat;
+}
+#featured-designers li{
+	list-style: none;
+	width: 100%;
+	height: 720px;
+}
+.fd-block{
+	height: 100%;
+}
+.fixed{
+	background: #fff url() 0 0 no-repeat;
+	position: static!important;
+	top: 0;
+	left: 0;
+	width: 100%;
+	margin: 0!important;
+	padding: 0!important;
+	height: auto;
+}
+#featured-designers{
+	margin-top:50px;
+}
 }
 @media only screen and (max-width: 320px){
 .un-stack{

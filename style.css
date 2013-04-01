@@ -164,6 +164,7 @@ body{
 	padding: 0px 20px 0px 20px;
 }
 
+
 header{
 	background: url(images/header/slideshow/1.jpg) 50% 0 no-repeat fixed;
 	background-size: cover;
@@ -611,7 +612,11 @@ footer ul li a:hover{
 }
 
 
-
+@media only screen and (min-width: 1441px){
+.BOF{
+	margin-top: 450px;
+}
+}
 
 @media only screen and (max-width: 1023px){
 section#about .content .col1{

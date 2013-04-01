@@ -455,8 +455,17 @@ color: #FFFFFF;
 }
 .inner a{
 	text-transform: uppercase;
-	font-family: 'karbonbold';
+	font-family: 'karbonmedium';
 	text-decoration: none;
+	color: #CCCCCC;
+	-webkit-transition: color .3s ease-in-out;
+	-moz-transition: color .3s ease-in-out;
+	-o-transition: color .3s ease-in-out;
+	-ms-transition: color .3s ease-in-out;
+	transition: color .3s ease-in-out;
+}
+
+.inner a:hover{
 	color: #FFFFFF;
 }
 .inner h1{
@@ -736,11 +745,6 @@ footer .content .col3{
 }
 }
 @media only screen and (max-width: 500px){
-	header p{
-		color: #333;
-		padding: 10px;
-		background: rgba(255,255,255,0.9);
-	}
 	.hide{
 		display:none;
 	}

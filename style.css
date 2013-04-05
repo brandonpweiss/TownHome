@@ -625,6 +625,9 @@ footer ul li a:hover{
 .BOF{
 	margin-top: 450px;
 }
+header{
+	min-height: 950px;
+}
 }
 
 @media only screen and (max-width: 1024px){
@@ -739,6 +742,16 @@ footer .content .col3{
 }
 
 }
+@media only screen and (max-width: 768px){
+header p{
+	background: rgba(255,255,255,.8);
+	color: #333;
+	margin-top: 10px;
+	padding: 10px;
+	position: relative;
+	top: 10px;
+}
+}
 @media only screen and (max-width: 640px){
 .un-stack{
 	margin: 0 5px;
@@ -816,6 +829,9 @@ header {
 	background: url(images/header/slideshow/1.jpg) 50% 0 no-repeat;
 	background-size: auto;
 	min-height: 620px;
+}
+header p{
+	top: 5px;
 }
 #tenthAnniversary {
 	background: url(images/tenth_anniversary/background.jpg) 50% 0 no-repeat;

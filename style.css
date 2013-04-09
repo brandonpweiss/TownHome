@@ -506,7 +506,7 @@ color: #FFFFFF;
 	background-size: cover;
 }
 #sky{
-	background: url(images/featured_designers/skyjewels.jpg) 50% 0 no-repeat fixed;
+	background: url(images/featured_designers/skyjewels.jpg) 50% bottom no-repeat fixed;
 	background-size: cover;
 }
 /*END FEATURED*/
